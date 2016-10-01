@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { ProjectModule } from './project/project.module';
 import { BootstrapModule } from './bootstrap';
 
 @NgModule({
@@ -14,6 +15,7 @@ import { BootstrapModule } from './bootstrap';
     BrowserModule,
     FormsModule,
     HttpModule,
+    ProjectModule,
     BootstrapModule
   ],
   providers: [],
