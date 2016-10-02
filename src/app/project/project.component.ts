@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Project } from './project.model';
 import { ProjectService } from './project.service';
 
@@ -17,11 +17,7 @@ import { ProjectService } from './project.service';
 })
 export class ProjectComponent implements OnInit {
   
-  project: Project;
-
-  constructor(private service: ProjectService) {
-    this.project = new Project('1', 'Learn Angular 2', 'Angela', 'Complete');
-   }
+  @Input () project: Project;
 
   ngOnInit() {
   }

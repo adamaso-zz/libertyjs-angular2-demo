@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ProjectModule } from './project/project.module';
+import { ProjectPinboardModule } from './project-pinboard/project-pinboard.module';
 import { BootstrapModule } from './bootstrap';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { BootstrapModule } from './bootstrap';
     FormsModule,
     HttpModule,
     ProjectModule,
+    ProjectPinboardModule,
     BootstrapModule
   ],
   providers: [],

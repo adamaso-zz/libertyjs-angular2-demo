@@ -20,6 +20,7 @@ export class ProjectService {
 
    generateProjects(){
      return [
+       new Project('1', 'Learn Angular 2', 'Angela', 'Almost Done'),
        new Project('2', 'Learn React', 'Angela', 'Not Started'),
        new Project('3', 'Learn Polymer', 'Angela', 'Not Started'),
        new Project('4', 'Learn Node', 'Angela', 'In Progress'),
